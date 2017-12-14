@@ -1,0 +1,6 @@
+instruction text color:  #378b47
+instruction field background color:  #fce3ca
+
+Splash area background color:  #c86d2b
+
+Total score background color: #0e878a

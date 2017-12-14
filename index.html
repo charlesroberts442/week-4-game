@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- 
+ * Copyright (c) 2017 Charles W. Roberts
+ * All Rights Reserved
+ *
+ * No portion of this code may be copied or modified without the
+ * prior written permission of Charles Roberts.
+ *
+ -->
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Crystals Collector</title>
+   <!-- Linking CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+   <div class="splash_block">
+      <p>CrystalsCollector!</p>
+   </div>
+   <div class="instructions_block">
+      <p>You will be given a random number at the start of the game.</p>
+      <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <p>You win the game by matching your total score to random number [sic], you lose the game if your total score goes above the random number.</p>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p>Each time when the game starts, the game will change the values of each crystal.</p>
+   </div>
+
+   <div class="hell">
+   <div class="target_number_field"></div>
+   <div class="win_lose_field"></div>
+</div>
+
+
+
+   <div class="gem_div">
+      <button class="gem_btn" name="ruby" id="ruby_button"><img src="assets/images/ruby.jpg"></button>
+      <button class="gem_btn" name="diamond" id="diamond_button"><img src="assets/images/diamond.jpg"></button>
+      <button class="gem_btn" name="topaz" id="topaz_button"><img src="assets/images/topaz.jpg"></button>
+      <button class="gem_btn" name="emerald" id="emerald_button"><img src="assets/images/emerald.jpg"></button>
+   </div>
+   <div class="total_score_field"></div>
+   <div class="current_total_field"></div>
+   <!-- Linking Javascript -->
+   <!-- Linking Javascript -->
+   <script type="text/javascript" src="assets/javascript/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="assets/javascript/RandomNumberGenerator.js"></script>
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+/***********************************************************************
+ * Copyright (c) 2017 Charles W. Roberts
+ * All Rights Reserved
+ *
+ * No portion of this code may be copied or modified without the
+ * prior written permission of Charles Roberts.
+ *
+ ***********************************************************************/
+
+body{
+	background-color: #808080;
+}
+
+.splash_block{
+	background-color:#c86d2b;
+	width: 17%;
+	min-height: 70px;
+	margin:5px;
+
+	display: flex;
+  align-items: center;
+}
+
+.splash_block p{
+	font-size: 1.75em;
+	font-weight: 900;
+	color:white;
+	margin: auto;
+}
+
+.instructions_block{
+	color:#378b47;
+	background-color:#fce3ca;
+	width: 30%;
+	min-height: 300px;
+	margin:5px;
+	padding:10px;
+}
+
+.instructions_block p{ 
+	margin:15px;
+	font-weight: bold;
+	font-size: 1.25em;
+	}
+
+.hell{
+	vertical-align: top;
+	
+}
+
+
+.target_number_field{
+	background-color: #47af78;
+	display: inline-block;
+	width:10%;
+	min-height: 120px;
+	margin:0;
+	border:0;
+	overflow: hidden;
+	font-size: 2em;
+	color:purple;
+}
+
+.win_lose_field{
+	background-color: #1af7f9;
+    display: inline-block;
+	width:7%;
+	min-height: 120px;
+	margin-top:1em;
+	padding:0;
+	border:0;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+
+
+.gem_btn{
+padding:0;
+margin:2px;
+border:0;
+
+}
+
+.total_score_field{
+	display:block;
+	background-color: #0e878a;
+	width:10%;
+	min-height: 20px;
+	margin:3px;
+	color: white;
+	font-weight: bold;
+}
+
+
+.current_total_field{
+	display:block;
+	background-color: #0e878a;
+	width:10%;
+	min-height: 120px;
+	margin:3px;
+	color: white;
+	font-size: 1.5em;
+}
